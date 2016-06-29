@@ -15,9 +15,9 @@ def sky_process_list():
 def main():
     # process list
     plist = sky_process_list()
-
+    
     # kill processes
-    subprocess.call(['kill'] + plist])
+    subprocess.call(['kill'] + plist)
 
 if __name__ == '__main__':
     main()
